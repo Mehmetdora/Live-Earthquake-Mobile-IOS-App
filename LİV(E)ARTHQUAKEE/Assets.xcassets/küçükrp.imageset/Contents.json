@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "—Pngtree—red round e-commerce decoration download_4424600.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

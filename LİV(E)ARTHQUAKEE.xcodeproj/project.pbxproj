@@ -1,0 +1,864 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5110DC0F2AE2A77200182B57 /* List_of_Volcanoes_of_the_World_for_VAAC_Use.json in Resources */ = {isa = PBXBuildFile; fileRef = 5110DC0E2AE2A77100182B57 /* List_of_Volcanoes_of_the_World_for_VAAC_Use.json */; };
+		5110DC122AE2B36600182B57 /* parseLocalJsonFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5110DC112AE2B36600182B57 /* parseLocalJsonFile.swift */; };
+		51337FCC2A1B8746001CCDDC /* secondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51337FCB2A1B8746001CCDDC /* secondVC.swift */; };
+		51337FCE2A1B8758001CCDDC /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51337FCD2A1B8758001CCDDC /* ThirdViewController.swift */; };
+		51337FD22A1B8783001CCDDC /* fourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51337FD12A1B8783001CCDDC /* fourthViewController.swift */; };
+		51337FD42A1B887F001CCDDC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51337FD32A1B887F001CCDDC /* FirstViewController.swift */; };
+		51337FD62A1B8A7C001CCDDC /* ALarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51337FD52A1B8A7C001CCDDC /* ALarmViewController.swift */; };
+		5173B1172A273A5D0076846B /* depremApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5173B1162A273A5D0076846B /* depremApiModel.swift */; };
+		5173B1192A273B0F0076846B /* depremApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5173B1182A273B0F0076846B /* depremApiService.swift */; };
+		51822E072A979BCB003EE78F /* Depremler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51822E062A979BCB003EE78F /* Depremler.swift */; };
+		51A508762A1CDB0100C71E88 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A508742A1CDB0100C71E88 /* TableViewCell.swift */; };
+		51A508772A1CDB0100C71E88 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A508752A1CDB0100C71E88 /* TableViewCell.xib */; };
+		51B40FE92A9A53A40034C2D1 /* Checkbx 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 51B40FE82A9A53A40034C2D1 /* Checkbx 1.png */; };
+		51B40FEA2A9A53A40034C2D1 /* Checkbx 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 51B40FE82A9A53A40034C2D1 /* Checkbx 1.png */; };
+		51FC65702A828A4400D2E3D6 /* FirstViewDepremDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FC656F2A828A4400D2E3D6 /* FirstViewDepremDetailsVC.swift */; };
+		51FDD7D12A1B825900E23E77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FDD7D02A1B825900E23E77 /* AppDelegate.swift */; };
+		51FDD7D32A1B825900E23E77 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FDD7D22A1B825900E23E77 /* SceneDelegate.swift */; };
+		51FDD7D82A1B825900E23E77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51FDD7D62A1B825900E23E77 /* Main.storyboard */; };
+		51FDD7DB2A1B825900E23E77 /* LI_V_E_ARTHQUAKEE.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 51FDD7D92A1B825900E23E77 /* LI_V_E_ARTHQUAKEE.xcdatamodeld */; };
+		51FDD7DD2A1B825C00E23E77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51FDD7DC2A1B825C00E23E77 /* Assets.xcassets */; };
+		51FDD7E02A1B825C00E23E77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51FDD7DE2A1B825C00E23E77 /* LaunchScreen.storyboard */; };
+		51FDD7EB2A1B825C00E23E77 /* LI_V_E_ARTHQUAKEETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FDD7EA2A1B825C00E23E77 /* LI_V_E_ARTHQUAKEETests.swift */; };
+		51FDD7F52A1B825C00E23E77 /* LI_V_E_ARTHQUAKEEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FDD7F42A1B825C00E23E77 /* LI_V_E_ARTHQUAKEEUITests.swift */; };
+		51FDD7F72A1B825C00E23E77 /* LI_V_E_ARTHQUAKEEUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FDD7F62A1B825C00E23E77 /* LI_V_E_ARTHQUAKEEUITestsLaunchTests.swift */; };
+		C719D1AE1C7FB3F4E4D369F5 /* Pods_LI_V_E_ARTHQUAKEE_LI_V_E_ARTHQUAKEEUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC6546F718DE7B956B3941D0 /* Pods_LI_V_E_ARTHQUAKEE_LI_V_E_ARTHQUAKEEUITests.framework */; };
+		F28C42E926DDB297B59ED7D4 /* Pods_LI_V_E_ARTHQUAKEETests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220BC64F2B775D9B1FD9ABBB /* Pods_LI_V_E_ARTHQUAKEETests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51FDD7E72A1B825C00E23E77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51FDD7C52A1B825800E23E77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51FDD7CC2A1B825900E23E77;
+			remoteInfo = "LİV(E)ARTHQUAKEE";
+		};
+		51FDD7F12A1B825C00E23E77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51FDD7C52A1B825800E23E77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51FDD7CC2A1B825900E23E77;
+			remoteInfo = "LİV(E)ARTHQUAKEE";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		220BC64F2B775D9B1FD9ABBB /* Pods_LI_V_E_ARTHQUAKEETests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LI_V_E_ARTHQUAKEETests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D4DE7C75C16EAD0B60C536A /* Pods-LİV(E)ARTHQUAKEETests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LİV(E)ARTHQUAKEETests.debug.xcconfig"; path = "Target Support Files/Pods-LİV(E)ARTHQUAKEETests/Pods-LİV(E)ARTHQUAKEETests.debug.xcconfig"; sourceTree = "<group>"; };
+		472CF8326E5D60CD17F0D1DA /* Pods-LİV(E)ARTHQUAKEE-LİV(E)ARTHQUAKEEUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LİV(E)ARTHQUAKEE-LİV(E)ARTHQUAKEEUITests.release.xcconfig"; path = "Target Support Files/Pods-LİV(E)ARTHQUAKEE-LİV(E)ARTHQUAKEEUITests/Pods-LİV(E)ARTHQUAKEE-LİV(E)ARTHQUAKEEUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4CAF65FF9CEB550A45294DD9 /* Pods-LİV(E)ARTHQUAKEE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LİV(E)ARTHQUAKEE.release.xcconfig"; path = "Target Support Files/Pods-LİV(E)ARTHQUAKEE/Pods-LİV(E)ARTHQUAKEE.release.xcconfig"; sourceTree = "<group>"; };
+		5110DC0E2AE2A77100182B57 /* List_of_Volcanoes_of_the_World_for_VAAC_Use.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = List_of_Volcanoes_of_the_World_for_VAAC_Use.json; sourceTree = "<group>"; };
+		5110DC112AE2B36600182B57 /* parseLocalJsonFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parseLocalJsonFile.swift; sourceTree = "<group>"; };
+		51337FCB2A1B8746001CCDDC /* secondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondVC.swift; sourceTree = "<group>"; };
+		51337FCD2A1B8758001CCDDC /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		51337FD12A1B8783001CCDDC /* fourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourthViewController.swift; sourceTree = "<group>"; };
+		51337FD32A1B887F001CCDDC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		51337FD52A1B8A7C001CCDDC /* ALarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALarmViewController.swift; sourceTree = "<group>"; };
+		5173B1162A273A5D0076846B /* depremApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = depremApiModel.swift; sourceTree = "<group>"; };
+		5173B1182A273B0F0076846B /* depremApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = depremApiService.swift; sourceTree = "<group>"; };
+		51822E062A979BCB003EE78F /* Depremler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depremler.swift; sourceTree = "<group>"; };
+		51A508742A1CDB0100C71E88 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		51A508752A1CDB0100C71E88 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		51B40FE82A9A53A40034C2D1 /* Checkbx 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Checkbx 1.png"; sourceTree = "<group>"; };
+		51FC656F2A828A4400D2E3D6 /* FirstViewDepremDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewDepremDetailsVC.swift; sourceTree = "<group>"; };
+		51FDD7CD2A1B825900E23E77 /* LİV(E)ARTHQUAKEE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LİV(E)ARTHQUAKEE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51FDD7D02A1B825900E23E77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		51FDD7D22A1B825900E23E77 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		51FDD7D72A1B825900E23E77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		51FDD7DA2A1B825900E23E77 /* LI_V_E_ARTHQUAKEE.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LI_V_E_ARTHQUAKEE.xcdatamodel; sourceTree = "<group>"; };
+		51FDD7DC2A1B825C00E23E77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51FDD7DF2A1B825C00E23E77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		51FDD7E12A1B825C00E23E77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51FDD7E62A1B825C00E23E77 /* LİV(E)ARTHQUAKEETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LİV(E)ARTHQUAKEETests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51FDD7EA2A1B825C00E23E77 /* LI_V_E_ARTHQUAKEETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LI_V_E_ARTHQUAKEETests.swift; sourceTree = "<group>"; };
+		51FDD7F02A1B825C00E23E77 /* LİV(E)ARTHQUAKEEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LİV(E)ARTHQUAKEEUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51FDD7F42A1B825C00E23E77 /* LI_V_E_ARTHQUAKEEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LI_V_E_ARTHQUAKEEUITests.swift; sourceTree = "<group>"; };
+		51FDD7F62A1B825C00E23E77 /* LI_V_E_ARTHQUAKEEUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LI_V_E_ARTHQUAKEEUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7359A0FC5EF9056AAED706C4 /* Pods-LİV(E)ARTHQUAKEE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LİV(E)ARTHQUAKEE.debug.xcconfig"; path = "Target Support Files/Pods-LİV(E)ARTHQUAKEE/Pods-LİV(E)ARTHQUAKEE.debug.xcconfig"; sourceTree = "<group>"; };
+		96EE7830669038702F15C62D /* Pods-LİV(E)ARTHQUAKEETests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LİV(E)ARTHQUAKEETests.release.xcconfig"; path = "Target Support Files/Pods-LİV(E)ARTHQUAKEETests/Pods-LİV(E)ARTHQUAKEETests.release.xcconfig"; sourceTree = "<group>"; };
+		B48FE871423A1B6F36592E2A /* Pods-LİV(E)ARTHQUAKEE-LİV(E)ARTHQUAKEEUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LİV(E)ARTHQUAKEE-LİV(E)ARTHQUAKEEUITests.debug.xcconfig"; path = "Target Support Files/Pods-LİV(E)ARTHQUAKEE-LİV(E)ARTHQUAKEEUITests/Pods-LİV(E)ARTHQUAKEE-LİV(E)ARTHQUAKEEUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC6546F718DE7B956B3941D0 /* Pods_LI_V_E_ARTHQUAKEE_LI_V_E_ARTHQUAKEEUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LI_V_E_ARTHQUAKEE_LI_V_E_ARTHQUAKEEUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51FDD7CA2A1B825900E23E77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51FDD7E32A1B825C00E23E77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28C42E926DDB297B59ED7D4 /* Pods_LI_V_E_ARTHQUAKEETests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51FDD7ED2A1B825C00E23E77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C719D1AE1C7FB3F4E4D369F5 /* Pods_LI_V_E_ARTHQUAKEE_LI_V_E_ARTHQUAKEEUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32C2C83A9C1E7F88D8323DB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC6546F718DE7B956B3941D0 /* Pods_LI_V_E_ARTHQUAKEE_LI_V_E_ARTHQUAKEEUITests.framework */,
+				220BC64F2B775D9B1FD9ABBB /* Pods_LI_V_E_ARTHQUAKEETests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5110DC102AE2B33000182B57 /* local data parsing */ = {
+			isa = PBXGroup;
+			children = (
+				5110DC0E2AE2A77100182B57 /* List_of_Volcanoes_of_the_World_for_VAAC_Use.json */,
+				5110DC112AE2B36600182B57 /* parseLocalJsonFile.swift */,
+			);
+			path = "local data parsing";
+			sourceTree = "<group>";
+		};
+		51337FCA2A1B870D001CCDDC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				51337FD32A1B887F001CCDDC /* FirstViewController.swift */,
+				51FC656F2A828A4400D2E3D6 /* FirstViewDepremDetailsVC.swift */,
+				51337FCB2A1B8746001CCDDC /* secondVC.swift */,
+				51337FCD2A1B8758001CCDDC /* ThirdViewController.swift */,
+				51337FD12A1B8783001CCDDC /* fourthViewController.swift */,
+				51337FD52A1B8A7C001CCDDC /* ALarmViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5173B1152A2739F10076846B /* deprem json parsing */ = {
+			isa = PBXGroup;
+			children = (
+				5173B1162A273A5D0076846B /* depremApiModel.swift */,
+				5173B1182A273B0F0076846B /* depremApiService.swift */,
+				51822E062A979BCB003EE78F /* Depremler.swift */,
+			);
+			path = "deprem json parsing";
+			sourceTree = "<group>";
+		};
+		51A5086F2A1CDABF00C71E88 /* tableView */ = {
+			isa = PBXGroup;
+			children = (
+				51A508742A1CDB0100C71E88 /* TableViewCell.swift */,
+				51A508752A1CDB0100C71E88 /* TableViewCell.xib */,
+			);
+			path = tableView;
+			sourceTree = "<group>";
+		};
+		51FDD7C42A1B825800E23E77 = {
+			isa = PBXGroup;
+			children = (
+				51FDD7CF2A1B825900E23E77 /* LİV(E)ARTHQUAKEE */,
+				51FDD7E92A1B825C00E23E77 /* LİV(E)ARTHQUAKEETests */,
+				51FDD7F32A1B825C00E23E77 /* LİV(E)ARTHQUAKEEUITests */,
+				51FDD7CE2A1B825900E23E77 /* Products */,
+				ACCBABF09CB47CD1BF750E04 /* Pods */,
+				32C2C83A9C1E7F88D8323DB2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		51FDD7CE2A1B825900E23E77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51FDD7CD2A1B825900E23E77 /* LİV(E)ARTHQUAKEE.app */,
+				51FDD7E62A1B825C00E23E77 /* LİV(E)ARTHQUAKEETests.xctest */,
+				51FDD7F02A1B825C00E23E77 /* LİV(E)ARTHQUAKEEUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51FDD7CF2A1B825900E23E77 /* LİV(E)ARTHQUAKEE */ = {
+			isa = PBXGroup;
+			children = (
+				51A5086F2A1CDABF00C71E88 /* tableView */,
+				51337FCA2A1B870D001CCDDC /* ViewControllers */,
+				5173B1152A2739F10076846B /* deprem json parsing */,
+				5110DC102AE2B33000182B57 /* local data parsing */,
+				51FDD7D22A1B825900E23E77 /* SceneDelegate.swift */,
+				51FDD7D02A1B825900E23E77 /* AppDelegate.swift */,
+				51FDD7D62A1B825900E23E77 /* Main.storyboard */,
+				51FDD7DC2A1B825C00E23E77 /* Assets.xcassets */,
+				51FDD7DE2A1B825C00E23E77 /* LaunchScreen.storyboard */,
+				51FDD7E12A1B825C00E23E77 /* Info.plist */,
+				51FDD7D92A1B825900E23E77 /* LI_V_E_ARTHQUAKEE.xcdatamodeld */,
+			);
+			path = "LİV(E)ARTHQUAKEE";
+			sourceTree = "<group>";
+		};
+		51FDD7E92A1B825C00E23E77 /* LİV(E)ARTHQUAKEETests */ = {
+			isa = PBXGroup;
+			children = (
+				51FDD7EA2A1B825C00E23E77 /* LI_V_E_ARTHQUAKEETests.swift */,
+			);
+			path = "LİV(E)ARTHQUAKEETests";
+			sourceTree = "<group>";
+		};
+		51FDD7F32A1B825C00E23E77 /* LİV(E)ARTHQUAKEEUITests */ = {
+			isa = PBXGroup;
+			children = (
+				51B40FE82A9A53A40034C2D1 /* Checkbx 1.png */,
+				51FDD7F42A1B825C00E23E77 /* LI_V_E_ARTHQUAKEEUITests.swift */,
+				51FDD7F62A1B825C00E23E77 /* LI_V_E_ARTHQUAKEEUITestsLaunchTests.swift */,
+			);
+			path = "LİV(E)ARTHQUAKEEUITests";
+			sourceTree = "<group>";
+		};
+		ACCBABF09CB47CD1BF750E04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7359A0FC5EF9056AAED706C4 /* Pods-LİV(E)ARTHQUAKEE.debug.xcconfig */,
+				4CAF65FF9CEB550A45294DD9 /* Pods-LİV(E)ARTHQUAKEE.release.xcconfig */,
+				B48FE871423A1B6F36592E2A /* Pods-LİV(E)ARTHQUAKEE-LİV(E)ARTHQUAKEEUITests.debug.xcconfig */,
+				472CF8326E5D60CD17F0D1DA /* Pods-LİV(E)ARTHQUAKEE-LİV(E)ARTHQUAKEEUITests.release.xcconfig */,
+				3D4DE7C75C16EAD0B60C536A /* Pods-LİV(E)ARTHQUAKEETests.debug.xcconfig */,
+				96EE7830669038702F15C62D /* Pods-LİV(E)ARTHQUAKEETests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51FDD7CC2A1B825900E23E77 /* LİV(E)ARTHQUAKEE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51FDD7FA2A1B825C00E23E77 /* Build configuration list for PBXNativeTarget "LİV(E)ARTHQUAKEE" */;
+			buildPhases = (
+				9D33E68D2484D614454199EF /* [CP] Check Pods Manifest.lock */,
+				51FDD7C92A1B825900E23E77 /* Sources */,
+				51FDD7CA2A1B825900E23E77 /* Frameworks */,
+				51FDD7CB2A1B825900E23E77 /* Resources */,
+				F82EB40B5C2F7DEF9A6DC5DC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LİV(E)ARTHQUAKEE";
+			productName = "LİV(E)ARTHQUAKEE";
+			productReference = 51FDD7CD2A1B825900E23E77 /* LİV(E)ARTHQUAKEE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		51FDD7E52A1B825C00E23E77 /* LİV(E)ARTHQUAKEETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51FDD7FD2A1B825C00E23E77 /* Build configuration list for PBXNativeTarget "LİV(E)ARTHQUAKEETests" */;
+			buildPhases = (
+				A4C599DB1C722556C733DFBD /* [CP] Check Pods Manifest.lock */,
+				51FDD7E22A1B825C00E23E77 /* Sources */,
+				51FDD7E32A1B825C00E23E77 /* Frameworks */,
+				51FDD7E42A1B825C00E23E77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51FDD7E82A1B825C00E23E77 /* PBXTargetDependency */,
+			);
+			name = "LİV(E)ARTHQUAKEETests";
+			productName = "LİV(E)ARTHQUAKEETests";
+			productReference = 51FDD7E62A1B825C00E23E77 /* LİV(E)ARTHQUAKEETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		51FDD7EF2A1B825C00E23E77 /* LİV(E)ARTHQUAKEEUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51FDD8002A1B825C00E23E77 /* Build configuration list for PBXNativeTarget "LİV(E)ARTHQUAKEEUITests" */;
+			buildPhases = (
+				3068FDAB11757B32D9871C14 /* [CP] Check Pods Manifest.lock */,
+				51FDD7EC2A1B825C00E23E77 /* Sources */,
+				51FDD7ED2A1B825C00E23E77 /* Frameworks */,
+				51FDD7EE2A1B825C00E23E77 /* Resources */,
+				45D0C4698E886CA3E23D8FD1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51FDD7F22A1B825C00E23E77 /* PBXTargetDependency */,
+			);
+			name = "LİV(E)ARTHQUAKEEUITests";
+			productName = "LİV(E)ARTHQUAKEEUITests";
+			productReference = 51FDD7F02A1B825C00E23E77 /* LİV(E)ARTHQUAKEEUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51FDD7C52A1B825800E23E77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					51FDD7CC2A1B825900E23E77 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					51FDD7E52A1B825C00E23E77 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 51FDD7CC2A1B825900E23E77;
+					};
+					51FDD7EF2A1B825C00E23E77 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 51FDD7CC2A1B825900E23E77;
+					};
+				};
+			};
+			buildConfigurationList = 51FDD7C82A1B825800E23E77 /* Build configuration list for PBXProject "LİV(E)ARTHQUAKEE" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51FDD7C42A1B825800E23E77;
+			productRefGroup = 51FDD7CE2A1B825900E23E77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51FDD7CC2A1B825900E23E77 /* LİV(E)ARTHQUAKEE */,
+				51FDD7E52A1B825C00E23E77 /* LİV(E)ARTHQUAKEETests */,
+				51FDD7EF2A1B825C00E23E77 /* LİV(E)ARTHQUAKEEUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51FDD7CB2A1B825900E23E77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5110DC0F2AE2A77200182B57 /* List_of_Volcanoes_of_the_World_for_VAAC_Use.json in Resources */,
+				51FDD7E02A1B825C00E23E77 /* LaunchScreen.storyboard in Resources */,
+				51B40FE92A9A53A40034C2D1 /* Checkbx 1.png in Resources */,
+				51A508772A1CDB0100C71E88 /* TableViewCell.xib in Resources */,
+				51FDD7DD2A1B825C00E23E77 /* Assets.xcassets in Resources */,
+				51FDD7D82A1B825900E23E77 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51FDD7E42A1B825C00E23E77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51FDD7EE2A1B825C00E23E77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51B40FEA2A9A53A40034C2D1 /* Checkbx 1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3068FDAB11757B32D9871C14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LİV(E)ARTHQUAKEE-LİV(E)ARTHQUAKEEUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45D0C4698E886CA3E23D8FD1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LİV(E)ARTHQUAKEE-LİV(E)ARTHQUAKEEUITests/Pods-LİV(E)ARTHQUAKEE-LİV(E)ARTHQUAKEEUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LİV(E)ARTHQUAKEE-LİV(E)ARTHQUAKEEUITests/Pods-LİV(E)ARTHQUAKEE-LİV(E)ARTHQUAKEEUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LİV(E)ARTHQUAKEE-LİV(E)ARTHQUAKEEUITests/Pods-LİV(E)ARTHQUAKEE-LİV(E)ARTHQUAKEEUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D33E68D2484D614454199EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LİV(E)ARTHQUAKEE-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4C599DB1C722556C733DFBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LİV(E)ARTHQUAKEETests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F82EB40B5C2F7DEF9A6DC5DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LİV(E)ARTHQUAKEE/Pods-LİV(E)ARTHQUAKEE-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LİV(E)ARTHQUAKEE/Pods-LİV(E)ARTHQUAKEE-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LİV(E)ARTHQUAKEE/Pods-LİV(E)ARTHQUAKEE-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51FDD7C92A1B825900E23E77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51FC65702A828A4400D2E3D6 /* FirstViewDepremDetailsVC.swift in Sources */,
+				51337FD62A1B8A7C001CCDDC /* ALarmViewController.swift in Sources */,
+				5173B1192A273B0F0076846B /* depremApiService.swift in Sources */,
+				51337FCC2A1B8746001CCDDC /* secondVC.swift in Sources */,
+				51337FD22A1B8783001CCDDC /* fourthViewController.swift in Sources */,
+				51A508762A1CDB0100C71E88 /* TableViewCell.swift in Sources */,
+				51FDD7D12A1B825900E23E77 /* AppDelegate.swift in Sources */,
+				5110DC122AE2B36600182B57 /* parseLocalJsonFile.swift in Sources */,
+				5173B1172A273A5D0076846B /* depremApiModel.swift in Sources */,
+				51822E072A979BCB003EE78F /* Depremler.swift in Sources */,
+				51FDD7DB2A1B825900E23E77 /* LI_V_E_ARTHQUAKEE.xcdatamodeld in Sources */,
+				51337FCE2A1B8758001CCDDC /* ThirdViewController.swift in Sources */,
+				51FDD7D32A1B825900E23E77 /* SceneDelegate.swift in Sources */,
+				51337FD42A1B887F001CCDDC /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51FDD7E22A1B825C00E23E77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51FDD7EB2A1B825C00E23E77 /* LI_V_E_ARTHQUAKEETests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51FDD7EC2A1B825C00E23E77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51FDD7F52A1B825C00E23E77 /* LI_V_E_ARTHQUAKEEUITests.swift in Sources */,
+				51FDD7F72A1B825C00E23E77 /* LI_V_E_ARTHQUAKEEUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51FDD7E82A1B825C00E23E77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51FDD7CC2A1B825900E23E77 /* LİV(E)ARTHQUAKEE */;
+			targetProxy = 51FDD7E72A1B825C00E23E77 /* PBXContainerItemProxy */;
+		};
+		51FDD7F22A1B825C00E23E77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51FDD7CC2A1B825900E23E77 /* LİV(E)ARTHQUAKEE */;
+			targetProxy = 51FDD7F12A1B825C00E23E77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		51FDD7D62A1B825900E23E77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51FDD7D72A1B825900E23E77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		51FDD7DE2A1B825C00E23E77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51FDD7DF2A1B825C00E23E77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51FDD7F82A1B825C00E23E77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		51FDD7F92A1B825C00E23E77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51FDD7FB2A1B825C00E23E77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7359A0FC5EF9056AAED706C4 /* Pods-LİV(E)ARTHQUAKEE.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZT75FQ3SLS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LİV(E)ARTHQUAKEE/Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow to get current location";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mehmetdora.LI-V-E-ARTHQUAKEE";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		51FDD7FC2A1B825C00E23E77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CAF65FF9CEB550A45294DD9 /* Pods-LİV(E)ARTHQUAKEE.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZT75FQ3SLS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LİV(E)ARTHQUAKEE/Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow to get current location";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mehmetdora.LI-V-E-ARTHQUAKEE";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		51FDD7FE2A1B825C00E23E77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D4DE7C75C16EAD0B60C536A /* Pods-LİV(E)ARTHQUAKEETests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZT75FQ3SLS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mehmetdora.LI-V-E-ARTHQUAKEETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LİV(E)ARTHQUAKEE.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LİV(E)ARTHQUAKEE";
+			};
+			name = Debug;
+		};
+		51FDD7FF2A1B825C00E23E77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96EE7830669038702F15C62D /* Pods-LİV(E)ARTHQUAKEETests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZT75FQ3SLS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mehmetdora.LI-V-E-ARTHQUAKEETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LİV(E)ARTHQUAKEE.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LİV(E)ARTHQUAKEE";
+			};
+			name = Release;
+		};
+		51FDD8012A1B825C00E23E77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B48FE871423A1B6F36592E2A /* Pods-LİV(E)ARTHQUAKEE-LİV(E)ARTHQUAKEEUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZT75FQ3SLS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mehmetdora.LI-V-E-ARTHQUAKEEUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LİV(E)ARTHQUAKEE";
+			};
+			name = Debug;
+		};
+		51FDD8022A1B825C00E23E77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 472CF8326E5D60CD17F0D1DA /* Pods-LİV(E)ARTHQUAKEE-LİV(E)ARTHQUAKEEUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZT75FQ3SLS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mehmetdora.LI-V-E-ARTHQUAKEEUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LİV(E)ARTHQUAKEE";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51FDD7C82A1B825800E23E77 /* Build configuration list for PBXProject "LİV(E)ARTHQUAKEE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51FDD7F82A1B825C00E23E77 /* Debug */,
+				51FDD7F92A1B825C00E23E77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51FDD7FA2A1B825C00E23E77 /* Build configuration list for PBXNativeTarget "LİV(E)ARTHQUAKEE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51FDD7FB2A1B825C00E23E77 /* Debug */,
+				51FDD7FC2A1B825C00E23E77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51FDD7FD2A1B825C00E23E77 /* Build configuration list for PBXNativeTarget "LİV(E)ARTHQUAKEETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51FDD7FE2A1B825C00E23E77 /* Debug */,
+				51FDD7FF2A1B825C00E23E77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51FDD8002A1B825C00E23E77 /* Build configuration list for PBXNativeTarget "LİV(E)ARTHQUAKEEUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51FDD8012A1B825C00E23E77 /* Debug */,
+				51FDD8022A1B825C00E23E77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		51FDD7D92A1B825900E23E77 /* LI_V_E_ARTHQUAKEE.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				51FDD7DA2A1B825900E23E77 /* LI_V_E_ARTHQUAKEE.xcdatamodel */,
+			);
+			currentVersion = 51FDD7DA2A1B825900E23E77 /* LI_V_E_ARTHQUAKEE.xcdatamodel */;
+			path = LI_V_E_ARTHQUAKEE.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 51FDD7C52A1B825800E23E77 /* Project object */;
+}
